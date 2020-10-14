@@ -5,6 +5,8 @@ import { OrderedList, OrderedListItem } from "./OrderedList";
 function App() {
   return (
     <div className="App">
+      <h1 className="text-white">Hooks Example</h1>
+
       <OrderedList>
         <OrderedListItem>
           <InputExample></InputExample>
